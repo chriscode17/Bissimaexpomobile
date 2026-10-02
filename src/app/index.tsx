@@ -1,9 +1,12 @@
-import { Text, View, StyleSheet } from "react-native";
+import * as SplashScreen from 'expo-splash-screen';
+import { Image, StyleSheet, View } from "react-native";
+
+SplashScreen.preventAutoHideAsync();
 
 export default function Index() {
   return (
     <View style={styles.container}>
-      <Text>Edit src/app/index.tsx to edit this screen.</Text>
+      <Image source={require('./image2/bisima.png')} style={{ width: 200, height: 200 }} />
     </View>
   );
 }
@@ -13,5 +16,8 @@ const styles = StyleSheet.create({
     flex: 1,
     alignItems: "center",
     justifyContent: "center",
+    fontSize: 20,
+    fontWeight: "bold",
+    fontFamily: "monospace",
   },
 });
