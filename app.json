@@ -4,7 +4,7 @@
     "slug": "Bissima",
     "version": "1.0.0",
     "orientation": "portrait",
-    "icon": "./assets/images/bissima.png",
+    "icon": "./image2/bisima.png",
     "scheme": "bissima",
     "userInterfaceStyle": "automatic",
     "ios": {
@@ -21,7 +21,7 @@
     },
     "web": {
       "output": "static",
-      "favicon": "./assets/images/bissima.png"
+      "favicon": "./image2/bisima.png"
     },
     "plugins": [
       "expo-router",
@@ -29,7 +29,7 @@
         "expo-splash-screen",
         {
           "backgroundColor": "#208AEF",
-          "image": "./assets/images/bissima.png",
+          "image": "./image2/bisima.png",
           "imageWidth": 76
         }
       ]
