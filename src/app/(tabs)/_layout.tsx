@@ -1,4 +1,4 @@
-import Feather from '@expo/vector-icons/Feather';
+
 import Ionicons from '@expo/vector-icons/Ionicons';
 import MaterialCommunityIcons from '@expo/vector-icons/MaterialCommunityIcons';
 import { Image } from 'react-native';
@@ -43,7 +43,7 @@ export default function TabLayout() {
         options={{
           title: 'Bissima Horizon 360',
           tabBarIcon: ({ color, focused }) => (
-            <MaterialCommunityIcons name="rotate-360" size={24} color="black" />
+            <MaterialCommunityIcons name={focused ? 'school' : 'school-outline'} color={color} size={24} />
           ),
         }}
       />
@@ -66,7 +66,7 @@ export default function TabLayout() {
         options={{
           title: 'profil',
           tabBarIcon: ({ color, focused }) => (
-            <Feather name="user" size={24} color="black" />
+        <Ionicons name={focused ? 'person' : 'person-outline'} color={color} size={24} />
           ),
         }}
       />
