@@ -55,7 +55,7 @@ export default function Index() {
   return (
     <View style={styles.mainContainer}>
         
-     <Image source={require('../image2/bissima1.png')} style={{ width: 200, height: 200 }} />
+     <Image source={require('../image2/bissima1.png')} style={{ width: 100, height: 100 }} />
     </View>
   );
 }
@@ -63,8 +63,9 @@ export default function Index() {
 const styles = StyleSheet.create({
   container: {
     flex: 1,
-    alignItems: "center",
     justifyContent: "center",
+  alignItems: "center",
+  
   },
   splashText: {
     color: "#FFFFFF", // Texte en blanc pour bien ressortir sur les couleurs vives
