@@ -1,6 +1,6 @@
 import { StyleSheet, Image, View } from 'react-native';
 
-export default function AboutScreen() {
+export default function _360() {
   return (
     <View style={styles.container}>
       <Image source={require('../image2/bissima1.png')} style={{ width: 200, height: 200 }} />

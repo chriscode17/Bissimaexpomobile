@@ -1,4 +1,4 @@
-import { Link } from 'expo-router';
+
 import * as SplashScreen from 'expo-splash-screen';
 import { useEffect, useState } from 'react';
 import { Image, StyleSheet, Text, View } from "react-native";
@@ -54,9 +54,7 @@ export default function Index() {
   // 2. Une fois l'animation terminée, ton application normale s'affiche
   return (
     <View style={styles.mainContainer}>
-         <Link href="/tabs/about" style={styles.button}>
-        Go to About screen
-      </Link>
+        
      <Image source={require('../image2/bissima1.png')} style={{ width: 200, height: 200 }} />
     </View>
   );
